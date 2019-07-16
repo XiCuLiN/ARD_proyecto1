@@ -1,0 +1,18 @@
+v1.000 - 16/07/19
+-----------------------------
+Se sube el sketch inicial que ya tenia en proyecto
+
+Incluye los sensores:
+RTC DS3231
+DHT11
+
+Displays
+Display I2C 16x2
+
+La información se verá en este estilo en la pantalla:
+*DD/MM/YY HH:mm *
+*TM ºC hr %HR*
+Siendo: "DD" día en 2 digitos, "MM" mes en dos digitos, "YY" año en 2 digitos, "HH" hora en dos digitos, "mm" en 2 digitos
+"TM" temperatura en 2 digitos sin decimales, "hr" humedad relativa en 2 digitos sin decimales
+Los dos puntos que separan las horas de minutos, parpadea cada segundo
+
